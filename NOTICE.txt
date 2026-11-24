@@ -1,0 +1,25 @@
+Kings of the Board | ملوك الرقعة — third-party notices
+=========================================================
+
+This application is distributed under the GNU General Public License v3.0 or later
+(see LICENSE in the source package, and engine/LICENSE-Stockfish-GPL-3.0.txt in this build).
+
+1. Stockfish chess engine (GPL-3.0)
+   Stockfish is free software by the Stockfish developers (https://stockfishchess.org).
+   This build bundles the WebAssembly port "stockfish.js" 19.0.1 by Nathan Rugg
+   (https://github.com/nmrugg/stockfish.js, npm: stockfish@19.0.1), "lite single-threaded" flavour:
+     engine/stockfish-19-lite-single.js
+     engine/stockfish-19-lite-single.wasm
+   Upstream engine source code: https://github.com/official-stockfish/Stockfish
+   Port source code:            https://github.com/nmrugg/stockfish.js
+   The full text of the licence is in engine/LICENSE-Stockfish-GPL-3.0.txt.
+   The engine runs locally in a Web Worker; nothing is sent over the network.
+   The complete corresponding source of THIS application (everything except those two engine
+   files, which are unmodified upstream binaries) ships in the source package next to this build.
+
+2. three.js (MIT) — https://github.com/mrdoob/three.js — see LICENSE-three.js-MIT.txt
+3. chess.js (BSD-2-Clause) — https://github.com/jhlywa/chess.js — see LICENSE-chess.js-BSD-2-Clause.txt
+4. Vite (MIT) is used only at build time.
+
+Sound effects are synthesised at runtime with the Web Audio API; no audio files are bundled.
+3D pieces, boards and environments are generated procedurally in code; no third-party models or textures are bundled.

@@ -1,0 +1,11 @@
+{
+  "name": "ملوك الرقعة | Kings of the Board",
+  "short_name": "ملوك الرقعة",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#14110d",
+  "theme_color": "#14110d",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
